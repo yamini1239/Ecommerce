@@ -47,7 +47,7 @@
                             </c:if>
                         </c:if>
                         <c:if test="${pageContext.request.userPrincipal.name  == null}">
-                        <li><a class="w3-hover-pink" href="<c:url value="/login/" />">Login</a><span class="glyphicon glyphicon-hand-left"></li>
+                        <li><a class="w3-hover-pink" href="<c:url value="/login/" />">Login</a></li>
                         <li><a class="w3-hover-orange" href="<c:url value="/register" />">Sign-Up</a></li>
                         </c:if>
     </ul>
